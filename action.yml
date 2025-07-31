@@ -76,7 +76,7 @@ inputs:
   kernel_patch:
     description: "Set the directory for kernel patches"
     required: false
-    default: "false"
+    default: "ture"
   auto_patch:
     description: "Set whether to use kernel patches"
     required: false
