@@ -1,0 +1,24 @@
+diff --git a/drivers/net/wireless/Kconfig b/drivers/net/wireless/Kconfig
+index abcdefg..1234567 100644
+--- a/drivers/net/wireless/Kconfig
++++ b/drivers/net/wireless/Kconfig
+@@ -250,6 +250,7 @@ source "drivers/net/wireless/ath/Kconfig"
+ source "drivers/net/wireless/broadcom/Kconfig"
+ source "drivers/net/wireless/realtek/Kconfig"
++source "drivers/net/wireless/rtl88x2bu/Kconfig"
+
+diff --git a/drivers/net/wireless/Makefile b/drivers/net/wireless/Makefile
+index abcdefg..1234567 100644
+--- a/drivers/net/wireless/Makefile
++++ b/drivers/net/wireless/Makefile
+@@ -50,6 +50,7 @@ obj-$(CONFIG_WLAN_VENDOR_MEDIATEK) += mediatek/
+ obj-$(CONFIG_WLAN_VENDOR_RALINK)   += ralink/
+ obj-$(CONFIG_WLAN_VENDOR_REALTEK)  += realtek/
++obj-$(CONFIG_RTL88X2BU)            += rtl88x2bu/
+
+diff --git a/.config b/.config
+--- a/.config
++++ b/.config
+@@
++CONFIG_RTL88X2BU=y
+

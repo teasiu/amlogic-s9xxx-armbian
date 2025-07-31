@@ -64,7 +64,7 @@ inputs:
   kernel_sign:
     description: "Set the kernel custom signature"
     required: false
-    default: "-ophub"
+    default: "-hinas"
   kernel_toolchain:
     description: "Select the compilation toolchain"
     required: false
