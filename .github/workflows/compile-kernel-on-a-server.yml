@@ -51,6 +51,11 @@ on:
         required: false
         default: true
         type: boolean
+      kernel_patch:
+        description: "patch"
+        required: false
+        default: true
+        type: boolean
       kernel_package:
         description: "Select compile package list"
         required: false
@@ -158,6 +163,7 @@ jobs:
           kernel_source: ${{ inputs.kernel_source }}
           kernel_version: ${{ inputs.kernel_version }}
           kernel_auto: ${{ inputs.kernel_auto }}
+          kernel_patch: ${{ inputs.kernel_patch }}
           delete_source: ${{ inputs.delete_source }}
           kernel_package: ${{ inputs.kernel_package }}
           kernel_sign: ${{ inputs.kernel_sign }}
