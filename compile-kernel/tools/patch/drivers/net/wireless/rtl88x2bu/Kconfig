@@ -1,0 +1,6 @@
+config RTL88X2BU
+    tristate "Realtek RTL88x2BU USB WiFi"
+    depends on USB
+    select CFG80211
+    default y
+
