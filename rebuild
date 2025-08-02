@@ -1237,9 +1237,9 @@ find_armbian
 # Download the dependency files
 download_depends
 # Query the latest kernel version
-[[ "${auto_kernel}" == "true" ]] && query_kernel
+#[[ "${auto_kernel}" == "true" ]] && query_kernel
 # Download the kernel files
-download_kernel
+#download_kernel
 
 # Show rebuild settings
 echo -e "${INFO} [ ${#build_armbian[@]} ] lists of Armbian board: [ $(echo ${build_armbian[@]} | xargs) ]"
