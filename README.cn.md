@@ -6,5 +6,5 @@ sudo ./recompile -k 6.1.147 -a false -n hinas -p true -d true
 编译固件：
 
 
-sudo ./rebuild -k 6.1.147 -a false -n hinas
+sudo ./rebuild -k 6.1.147 -a false -n hinas -b fine3399
 
